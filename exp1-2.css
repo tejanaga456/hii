@@ -1,0 +1,21 @@
+h3 {
+            color: rgb(52, 122, 213);
+        }
+        h2{
+            text-align: center;
+        }
+
+        .box {
+            border: 2px solid black;
+            width: 650px;
+            margin: 30px auto;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+            background-color: rgb(237, 240, 243);
+        }
+        .content {
+            padding: 20px;
+        }
+
+        hr {
+            border: 1px solid black;
+        }

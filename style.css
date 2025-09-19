@@ -1,0 +1,23 @@
+body{
+    margin = 0;
+}
+<style>
+        h2{
+            color:red;
+        }
+        body{
+            background: aqua;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            color:brown;
+        }
+        button{
+            height: 150;
+            width: 150;
+            border: none;
+            border-radius: 10px;
+        }
+    </style>

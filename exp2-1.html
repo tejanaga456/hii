@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Basics</title>
+</head>
+<body>
+  <h2>JavaScript Variables, Functions, and Objects</h2>
+  <div id="output"></div>
+  <script>
+    
+    // --- Variables ---
+    let name = "Ravi";       // variable
+    const pi = 3.14;         // constant
+    var age = 20;            // legacy variable
+    // --- Function ---
+    function greet(user) {
+      return "Hello, " + user;
+    }
+
+    // --- Object ---
+    const student = {
+      id: 101,
+      fullName: "Anita",
+      marks: { math: 90, science: 95 },
+      info() {
+        return `ID: ${this.id}, Name: ${this.fullName}`;
+      }
+    };
+
+    // --- Output ---
+    document.getElementById("output").innerHTML = `
+      <p><b>Variables:</b> Name = ${name}, Age = ${age}, PI = ${pi}</p>
+      <p><b>Function:</b> greet(name) → ${greet(name)}</p>
+      <p><b>Object:</b> ${student.info()} | Math = ${student.marks.math}, Science = ${student.marks.science}</p>
+    `;
+  </script>
+</body>
+</html>
